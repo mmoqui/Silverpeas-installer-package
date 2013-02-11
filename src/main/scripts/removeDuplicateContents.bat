@@ -2,7 +2,7 @@
 
 set CLASSPATH=${classpath}
 
-java -classpath "%CLASSPATH%" -Ddbbuilder.home="%SILVERPEAS_HOME%" org.silverpeas.migration.contentmanagement.DuplicateContentRemovingApplication
+java -classpath "%CLASSPATH%" -Ddbbuilder.home="%SILVERPEAS_HOME%" org.silverpeas.setup.dbbuilder.migration.contentmanagement.DuplicateContentRemovingApplication
 
 echo.
 
